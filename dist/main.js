@@ -1,1 +1,1 @@
-(()=>{var o;(o=console).log.apply(o,[1,2,3]),console.log("Hola mundo webpack")})();
+(()=>{"use strict";var o;(o=console).log.apply(o,[1,2,3]),console.log("Hola mundo webpack")})();
