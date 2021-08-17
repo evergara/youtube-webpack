@@ -1,1 +1,1 @@
-console.log("Hola mundo webpck");
+(()=>{var o;(o=console).log.apply(o,[1,2,3]),console.log("Hola mundo webpack")})();
