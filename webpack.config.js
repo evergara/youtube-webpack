@@ -28,6 +28,13 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg|webp)$/i,
         use:"file-loader?name=assets/[name].[ext]"
       },
+      {
+        test: /\.(ttf|eot|woff|woff2)$/i,
+        loader: 'file-loader',
+        options: {
+          limit: 50000,
+        },
+      },
     ],
   },
   plugins: [
